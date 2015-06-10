@@ -24,7 +24,7 @@
     [super viewDidLoad];
      self.beaconLabel.text = @"";
      //Create your UUID
-     NSUUID *uuid = [[NSUUID alloc] initWithUUIDString:@"B9407f30-f5f8-466e-aff9-25556b57fe6d"];
+     NSUUID *uuid = [[NSUUID alloc] initWithUUIDString:@"B9407F30-F5F8-466E-AFF9-25556B57FE6D"];
      
      //set up the beacon manager
      self.beaconManager = [[ESTBeaconManager alloc] init];
