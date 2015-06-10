@@ -32,8 +32,8 @@
      
      //set up the beacon region
      self.beaconRegion = [[CLBeaconRegion alloc] initWithProximityUUID:uuid
-                                                                  major:37470
-                                                                  minor:56023
+                                                                  major:16365
+                                                                  minor:45820
                                                              identifier:@"RegionIdenifier"];
      
      //let us know when we exit and enter a region
