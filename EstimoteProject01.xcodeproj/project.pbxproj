@@ -457,6 +457,7 @@
 				7E65D59E1B286B94000FED4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7E65D59F1B286B94000FED4B /* Build configuration list for PBXNativeTarget "EstimoteProject01Tests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +466,7 @@
 				7E65D5A11B286B94000FED4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 @property (strong, nonatomic) IBOutlet UILabel *beaconLabel;
+@property (weak, nonatomic) IBOutlet UILabel *statusLbl;
+@property (weak, nonatomic) IBOutlet UILabel *signalStrengthLbl;
+@property (weak, nonatomic) IBOutlet UIImageView *backgroundImage;
+
 
 @end
 

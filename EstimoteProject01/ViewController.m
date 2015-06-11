@@ -16,9 +16,15 @@
 @property (nonatomic, strong) CLBeacon *beacon;
 @property (nonatomic, strong) ESTBeaconManager *beaconManager;
 @property (nonatomic, strong) CLBeaconRegion *beaconRegion;
+
+
 @end
 
+
+
 @implementation ViewController
+
+@synthesize statusLbl, signalStrengthLbl;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -91,6 +97,8 @@
     if (beacons.count > 0) {
         CLBeacon *firstBeacon = [beacons firstObject];
         self.beaconLabel.text = [self textForProximity:firstBeacon.proximity];
+        self.statusLbl.text = [NSString stringWithFormat:@"Status: %@", [self textForProximity:firstBeacon.proximity]];
+        self.signalStrengthLbl.text = [NSString stringWithFormat:@"Signal Strength: %@", [self textForsignalStrength:beacons.firstObject]];
     }
 }
 
@@ -119,6 +127,23 @@
         default:
             break;
     }
+}
+
+-(NSString *) textForsignalStrength:(CLBeacon*)beacon
+{
+    if(beacon.accuracy < 1.5f)
+    {
+        return @"Good!";
+    }
+    else if(beacon.accuracy > 1.5f && beacon.accuracy < 2.5f)
+    {
+        return @"Medium!";
+    }
+    else if (beacon.accuracy > 3.5f)
+        return @"Bad!";
+    else
+        return @"None";
+    
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
