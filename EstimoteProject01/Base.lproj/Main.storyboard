@@ -74,6 +74,12 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Beacon:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JHy-EG-A9d">
+                                <rect key="frame" x="16" y="274" width="568" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -86,6 +92,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="beaconLbl" destination="JHy-EG-A9d" id="zdN-XT-Qej"/>
                         <outlet property="signalStrengthLbl" destination="ojL-rp-o0F" id="Vvd-Ay-jxz"/>
                         <outlet property="statusLbl" destination="DHf-bz-PnU" id="02n-Pn-bXF"/>
                     </connections>
