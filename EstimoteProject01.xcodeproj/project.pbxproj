@@ -20,6 +20,8 @@
 		7E65D5A71B286C43000FED4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E65D5A61B286C43000FED4B /* UIKit.framework */; };
 		7E65D5A91B286C4B000FED4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E65D5A81B286C4B000FED4B /* Foundation.framework */; };
 		7E65D5AF1B286CA8000FED4B /* EstimoteSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E65D5AE1B286CA8000FED4B /* EstimoteSDK.framework */; };
+		7EAA0A161B29A19D00BC4098 /* TestingClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAA0A141B29A19D00BC4098 /* TestingClassViewController.m */; };
+		7EAA0A171B29A19D00BC4098 /* TestingClassViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EAA0A151B29A19D00BC4098 /* TestingClassViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,9 @@
 		7E65D5A61B286C43000FED4B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7E65D5A81B286C4B000FED4B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7E65D5AE1B286CA8000FED4B /* EstimoteSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EstimoteSDK.framework; sourceTree = "<group>"; };
+		7EAA0A131B29A19D00BC4098 /* TestingClassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestingClassViewController.h; sourceTree = "<group>"; };
+		7EAA0A141B29A19D00BC4098 /* TestingClassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestingClassViewController.m; sourceTree = "<group>"; };
+		7EAA0A151B29A19D00BC4098 /* TestingClassViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestingClassViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +108,9 @@
 				7E65D5831B286B94000FED4B /* ViewController.h */,
 				7E65D5841B286B94000FED4B /* ViewController.m */,
 				7E65D5861B286B94000FED4B /* Main.storyboard */,
+				7EAA0A131B29A19D00BC4098 /* TestingClassViewController.h */,
+				7EAA0A141B29A19D00BC4098 /* TestingClassViewController.m */,
+				7EAA0A151B29A19D00BC4098 /* TestingClassViewController.xib */,
 				7E65D5891B286B94000FED4B /* Images.xcassets */,
 				7E65D58B1B286B94000FED4B /* LaunchScreen.xib */,
 				7E65D5801B286B94000FED4B /* EstimoteProject01.xcdatamodeld */,
@@ -225,6 +233,7 @@
 			files = (
 				7E65D5881B286B94000FED4B /* Main.storyboard in Resources */,
 				7E65D58D1B286B94000FED4B /* LaunchScreen.xib in Resources */,
+				7EAA0A171B29A19D00BC4098 /* TestingClassViewController.xib in Resources */,
 				7E65D58A1B286B94000FED4B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -243,6 +252,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EAA0A161B29A19D00BC4098 /* TestingClassViewController.m in Sources */,
 				7E65D57F1B286B94000FED4B /* AppDelegate.m in Sources */,
 				7E65D5821B286B94000FED4B /* EstimoteProject01.xcdatamodeld in Sources */,
 				7E65D5851B286B94000FED4B /* ViewController.m in Sources */,
